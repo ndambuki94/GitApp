@@ -1,0 +1,24 @@
+.table-dark{
+text-align: center;
+  width: 50%;
+}
+.in{
+  width:40%; 
+}
+.card{
+  text-align: center;
+  background-color: yellowgreen;
+  font-weight: 350px;
+  font-family: Impact,'Arial Narrow Bold', sans-serif;
+}
+#all{
+  display:flex;
+}
+#nam{
+  text-align:center;
+  color:rgb(175, 182, 111);
+
+}
+#des{
+  text-align: center;
+}
