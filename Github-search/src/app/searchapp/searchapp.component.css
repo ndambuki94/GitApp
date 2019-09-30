@@ -8,7 +8,7 @@ text-align: center;
 .card{
   text-align: center;
   background-color: yellowgreen;
-  font-weight: 350px;
+  font-weight: 300px;
   font-family: Impact,'Arial Narrow Bold', sans-serif;
 }
 #all{
@@ -16,7 +16,7 @@ text-align: center;
 }
 #nam{
   text-align:center;
-  color:rgb(175, 182, 111);
+  color:blue;
 
 }
 #des{
