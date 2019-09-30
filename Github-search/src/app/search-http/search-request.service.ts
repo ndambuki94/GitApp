@@ -20,8 +20,7 @@ export class SearchRequestService {
     interface ApiResponse {
       avatar_url: any;
       name: string;
-      // follower: number;
-      // following: number;
+     
       public_repos: number;
     }
     let promise = new Promise((resolve, reject) => {
@@ -37,8 +36,7 @@ export class SearchRequestService {
           response => {
             this.Use.avatar_url = response.avatar_url;
             this.Use.name = response.name;
-            // this.Use.follower = response.follower;
-            // this.Use.following = response.following;
+            
             this.Use.repo = response.public_repos;
             console.log(this.Use);
             resolve();
@@ -46,8 +44,7 @@ export class SearchRequestService {
           error => {
             this.Use.avatar_url = "";
             this.Use.name = "";
-            // this.Use.follower = 0;
-            // this.Use.following = 0;
+            
             this.Use.repo = 0;
 
             reject(error);
@@ -84,8 +81,7 @@ export class SearchRequestService {
           error => {
             this.Use.avatar_url = "";
             this.Use.name = "";
-            // this.Use.follower = 0;
-            // this.Use.following = 0;
+            
             this.Use.repo = 0;
 
             reject(error);
