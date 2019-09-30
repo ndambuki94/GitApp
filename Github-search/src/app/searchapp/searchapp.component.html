@@ -1,3 +1,4 @@
+<div class="container-fluid"> 
 <h2 class="card"><br />Github Username<br /></h2>
 <br /><br />
 
@@ -8,16 +9,14 @@
     <thead>
       <tr class="row">
         <th class="col-md-4">Name</th>
-        <!-- <th class="col-md-2">Followers</th>
-        <th class="col-md-2">Following</th> -->
+        
         <th class="col-md-4">Repositories</th>
       </tr>
     </thead>
     <tbody>
       <tr class="row">
         <td class="col-md-4">{{ User.name }}</td>
-        <!-- <td class="col-md-2">{{ User.follower }}</td>
-        <td class="col-md-2">{{ User.following }}</td> -->
+        
         <td class="col-md-4">{{ User.repo }}</td>
       </tr>
     </tbody>
@@ -37,5 +36,6 @@
   <p id="nam" appStrikethrough>{{l.name|caps}} <br></p> 
   <div id="des" appStrikethrough>{{l.description}}</div>
  
+</div>
 </div>
 </div>
